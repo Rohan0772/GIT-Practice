@@ -11,3 +11,4 @@ for(let i = 0; i <priceMobile.length ; i++){
     console.log( await nameMobile[i].textContent() + "==========>>>>>>" + await priceMobile[i].textContent())
 }
 })
+console.Console.log("changed");
