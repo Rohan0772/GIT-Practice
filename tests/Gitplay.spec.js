@@ -12,4 +12,4 @@ for(let i = 0; i <priceMobile.length ; i++){
     
 }
 })
-console.log("changedthrice");
+console.log("changedthricedfdvdvd");
