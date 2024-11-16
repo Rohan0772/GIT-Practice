@@ -1,5 +1,5 @@
 import {test,expect} from "@playwright/test";
-test("locate element", async({page}) =>{
+test("locate element @Reg", async({page}) =>{
     await page.goto('https://www.demoblaze.com/');
   //  await page.locator('#login2').click();
     await page.click('#login2');
