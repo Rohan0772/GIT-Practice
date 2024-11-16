@@ -9,6 +9,7 @@ let nameMobile= await page.$$('//div[@class="KzDlHZ"]');
 let priceMobile = await page.$$('//div[@class="Nx9bqj _4b5DiR"]');
 for(let i = 0; i <priceMobile.length ; i++){
     console.log( await nameMobile[i].textContent() + "==========>>>>>>" + await priceMobile[i].textContent())
+    
 }
 })
-Console.log("changedthrice");
+console.log("changedthrice");
